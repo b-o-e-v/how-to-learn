@@ -179,7 +179,7 @@
   font-weight: normal;
 }
 
-.table__cell > li:last-child > .table__text {
+.table__cell > .table__string:last-child > .table__text {
   margin: 0;
 }
 
