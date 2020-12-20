@@ -149,6 +149,7 @@
 .table {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -179,7 +180,7 @@
   font-weight: normal;
 }
 
-.table__cell > .table__string:last-child > .table__text {
+.table__text:last-child {
   margin: 0;
 }
 
