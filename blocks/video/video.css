@@ -1,0 +1,7 @@
+.video {
+  width: 100%;
+  min-height: 429px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}

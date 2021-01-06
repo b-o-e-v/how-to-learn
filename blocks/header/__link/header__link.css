@@ -6,3 +6,8 @@
 .header__link::after {
   content: " →";
 }
+
+.header__link:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}

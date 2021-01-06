@@ -1,0 +1,11 @@
+.video__iframes {
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+}
