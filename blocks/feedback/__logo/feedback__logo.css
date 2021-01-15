@@ -1,0 +1,23 @@
+.feedback__logo {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 10px gray;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: black;
+  background-image: url("../../../images/logo/phonewhite.png");
+  background-size: 40px 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+  cursor: pointer
+}
+
+.feedback__logo:hover {
+  transition: 0.5s;
+  background-color: rgb(47,128,237);
+}

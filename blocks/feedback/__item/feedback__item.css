@@ -1,0 +1,16 @@
+.feedback__item {
+  box-sizing: border-box;
+  border: 1px solid #bcbcc4;
+  width: 100%;
+  padding: 6px;
+}
+
+.feedback__item::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: #bcbcc4;
+}
+
+.feedback__item:focus {
+  outline-color: rgb(47,128,237);
+}

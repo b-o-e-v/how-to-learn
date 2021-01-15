@@ -218,6 +218,29 @@
             <li><a href="#" target="_blank"><img src="./images/logo/resources-polka.svg" alt="полка" class="resources__logo link-hover"></a></li>
         </ul>
       </section>
+      <section class="feedback">
+        <button class="feedback__logo"></button>
+        <form action="" class="feedback__form" method="POST">
+          <div class="feedback__container">
+            <h2 class="feedback__heading">Обратная связь</h2>
+            <div class="feedback__close"></div>
+            <fieldset class="feedback__input-container">
+              <label class="feedback__label" for="heading">Заголовок:</label>
+              <input type="text" class="feedback__item" id="heading" name="heading" placeholder="О чём комментарий?" required>
+              <label class="feedback__label" for="subheading">Подзаголовок:</label>
+              <input type="text" class="feedback__item" id="subheading" name="subheading" placeholder="Краткое описание" required>
+              <label class="feedback__label" for="main-text">Комментарий:</label>
+              <textarea class="feedback__item" id="main-text" name="main-text" placeholder="Здесь будет основной текст вашего комментария" required></textarea>
+              <label class="feedback__label" for="email">E-mail:</label>
+              <input type="email" class="feedback__item" id="email" name="email" placeholder="hello@example.com">
+            </fieldset>
+            <fieldset class="feedback__handlers">
+              <input type="submit" class="feedback__button">
+              <input type="reset" class="feedback__button">
+            </fieldset>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
@@ -255,6 +278,7 @@
         </nav>
       </div>
     </footer>
+    <script src="./OpenForm.js"></script>
   </div>
 </body>
 </html>

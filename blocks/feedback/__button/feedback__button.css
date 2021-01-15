@@ -1,0 +1,20 @@
+.feedback__button {
+  margin: 20px 5px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 5px gray;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feedback__button:hover {
+  transition: 0.5s;
+  background-color: rgb(47,128,237);
+  transform: scale(1.05);
+}
