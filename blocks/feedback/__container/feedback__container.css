@@ -1,11 +1,10 @@
 .feedback__container {
-  width: 500px;
+  max-width: 500px;
   background-color: white;
   margin: auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 10px gray;
-  transform: translate(0, -35%);
   text-align: center;
   position: relative;
 }

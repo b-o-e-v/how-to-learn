@@ -1,5 +1,5 @@
 .cards {
-  width: 920px;
+  max-width: 920px;
   margin: 60px auto 0;
   padding: 0;
   display: grid;
