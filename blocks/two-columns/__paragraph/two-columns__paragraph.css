@@ -8,3 +8,18 @@
 .two-columns__paragraph:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .two-columns__paragraph {
+    line-height: 25px;
+    font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .two-columns__paragraph {
+    margin: 0px 0px 10px;
+    line-height: 20px;
+    font-size: 16px;
+    }
+}

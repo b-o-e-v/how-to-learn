@@ -1,9 +1,25 @@
 .header__square-pic {
-  width: 568px;
-  height: 568px;
+  width: 36vw;
+  height: 36vw;
   position: absolute;
   right: 0;
-  top: 64px;
+  top: 18vw;
   background-color: #2f80ed;
   z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .header__square-pic {
+    top: -10vw;
+    right: -10vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__square-pic {
+    top: -40vw;
+    right: -40vw;
+    width: 80vw;
+    height: 80vw;
+  }
 }

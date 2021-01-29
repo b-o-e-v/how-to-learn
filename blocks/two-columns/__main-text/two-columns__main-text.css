@@ -1,4 +1,10 @@
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;
+}
+
+@media screen and (max-width: 450px) {
+  .two-columns__main-text {
+    width: 100%;
+    padding-top: 20px;
+  }
 }

@@ -9,3 +9,20 @@
   z-index: 5;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__subtitle {
+    left: 10vw;
+    bottom: 40%;
+    line-height: 15px;
+    font-size: 15px;
+  }
+}

@@ -4,3 +4,16 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .two-columns {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .two-columns {
+    flex-direction: column;
+    justify-content: start;
+  }
+}

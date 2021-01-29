@@ -8,3 +8,19 @@
   text-align: center;
   list-style-type: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 50px;
+
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
