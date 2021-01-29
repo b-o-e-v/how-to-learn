@@ -2,6 +2,11 @@
   box-sizing: border-box;
   min-height: 350px;
   background-color: #1f1f1f;
-  display: flex;
   padding: 60px 0 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .kaufman {
+    padding: 50px 0;
+  }
 }

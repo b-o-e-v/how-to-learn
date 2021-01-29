@@ -1,6 +1,12 @@
 .footer__column_content_copyright {
-  flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 620px) {
+  .footer__column_content_copyright {
+    grid-row: 2;
+    grid-column: 1 / 3;
+  }
 }

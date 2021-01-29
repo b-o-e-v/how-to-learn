@@ -10,15 +10,13 @@
 @media screen and (max-width: 768px) {
   .two-columns__brief {
     max-width: 120px;
-    line-height: 20px;
-    font-weight: bold;
-    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .two-columns__brief {
+    line-height: 20px;
     max-width: 300px;
-
+    font-weight: bold;
   }
 }
