@@ -5,3 +5,18 @@
   width: 620px;
   height: 608px;
 }
+
+@media screen and (min-width: 1200px) {
+  .khan {
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .khan__book-pic {
+    width: 50vw;
+    height: 50vw;
+    margin-right: 24px;
+  }
+}
+

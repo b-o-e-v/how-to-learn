@@ -4,3 +4,9 @@
   position: relative;
   z-index: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .oakley {
+    padding-top: 90px;
+  }
+}

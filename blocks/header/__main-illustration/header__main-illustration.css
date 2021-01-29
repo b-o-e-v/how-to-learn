@@ -6,8 +6,17 @@
   z-index: 2;
 }
 
+@media screen and (min-width: 1200px) {
+  .header__main-illustration {
+    width: 700px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .header__main-illustration {
     width: 65vw;
   }
 }
+
+
+

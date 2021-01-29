@@ -9,3 +9,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 980px) {
+  .video__iframes {
+    grid-template-columns: minmax(270px, 515px);
+  }
+}

@@ -9,3 +9,10 @@
 .khan__buy-link:after {
   content: " →";
 }
+
+@media screen and (max-width: 580px) {
+  .khan__buy-link {
+    line-height: 30px;
+    font-size: 22px;
+    }
+}

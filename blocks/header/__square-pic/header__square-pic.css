@@ -8,6 +8,15 @@
   z-index: 1;
 }
 
+@media screen and (min-width: 1200px) {
+  .header__square-pic {
+    width: 700px;
+    height: 700px;
+    top: 200px;
+    right: -90px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header__square-pic {
     top: -10vw;

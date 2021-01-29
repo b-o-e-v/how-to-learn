@@ -17,10 +17,11 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .cards {
+    margin-top: 30px;
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 30px;
   }
 }
 

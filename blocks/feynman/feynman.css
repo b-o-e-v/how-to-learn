@@ -3,10 +3,34 @@
   background-color: #f2f2f2;
   background-image: url("../../images/feynman.png");
   background-repeat: no-repeat;
-  background-size: 867px 637px;
+  background-size: 60vw;
   background-position: bottom left;
   display: flex;
   flex-direction: column;
   position: relative;
   padding-top: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  .feynman {
+    background-size: 800px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .feynman {
+    min-height: 690px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feynman {
+    min-height: 590px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feynman {
+    min-height: 490px;
+  }
 }

@@ -6,3 +6,11 @@
   font-weight: normal;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 650px) {
+  .section-subtitle {
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}

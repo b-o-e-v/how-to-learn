@@ -6,3 +6,29 @@
   font-size: 120px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+  .feynman__title {
+    font-size: 85px;
+    line-height: 78px;
+    margin: 0 auto 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feynman__title {
+    max-width: 600px;
+    font-size: 63px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feynman__title {
+    margin-left: 10vw;
+    margin: 0 auto 20px;
+    max-width: 300px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
