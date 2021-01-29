@@ -4,6 +4,26 @@
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
   z-index: -1;
-  padding-top: 25%;
+  padding-top: 10%;
   display: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .feedback__form {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .feedback__form {
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .feedback__form {
+    padding-top: 40%;
+  }
+}
+
+
